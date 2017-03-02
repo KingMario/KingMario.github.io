@@ -2,7 +2,7 @@
 
 I’m an experienced Vue developer. I have full-time Vue development experience for more than a year, and I’m familiar with Vue and its ecosystem such as vuex, vue-router etc. of version 1 and version 2.
 
-My github account is KingMario: https://github.com/kingmario. I take part in Vue ecosystem by submitting several pull requests for new features, bug-fixes and documentations.
+I take part in Vue ecosystem by submitting several pull requests for new features, bug-fixes and documentations.
 * [Vue pull request](https://github.com/vuejs/vue/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AKingMario)
 * [Vuejs.org pull request](https://github.com/vuejs/vuejs.org/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AKingMario)
 * [Vuex pull request](https://github.com/vuejs/vuex/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AKingMario)
