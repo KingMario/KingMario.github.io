@@ -9,7 +9,7 @@ I take part in Vue ecosystem by submitting several pull requests for new feature
 * [vue-i18n](https://github.com/kazupon/vue-i18n/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AKingMario)
 
 
-I also make a Vue video course in the biggest on-line studying web site: http://www.jikexueyuan.com/zhiye/course/12.html?type=8
+I also make a Vue video course in the on-line studying web site: http://www.jikexueyuan.com/zhiye/course/12.html?type=8
 
 
 For your connivence, I list the Vue related repos bellow:
