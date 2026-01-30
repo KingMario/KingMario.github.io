@@ -14,16 +14,16 @@ export const EXPERIENCE = [
   {
     period: "Present",
     role: "Web CAD Developer",
-    company: "Current Company",
-    description: "Developing complex Web CAD software using React and Three.js. Focusing on performance optimization, 3D interaction, and geometry processing.",
-    tech: ["React", "Three.js", "TypeScript", "WebGL", "Next.js"],
+    company: "AMCAX",
+    description: "Developing a next-gen Web CAD platform (next.amcax.net) featuring spatial modeling, sketching, and assembly. Key contributions include:\n• Revolutionized command form development using RJSF (React JSON Schema Form), significantly accelerating feature delivery.\n• Led the 0-1 development of the Assembly module, implementing constraints, linear/circular patterns (with instance skipping), and real-time previews.\n• Developed complex interactive tools: Translation/Rotation dual controllers for part manipulation and customizable mouse control schemes (CATIA/SolidWorks/NX presets).\n• Implemented advanced modeling features: Sketch Slots, Design Tables, Hole features, and a refactored Law Curve input widget.",
+    tech: ["React", "Three.js", "RJSF", "TypeScript", "WebGL", "Next.js"],
   },
   {
     period: "7 Years",
     role: "Angular Specialist & Contributor",
     company: "VMware",
-    description: "Deeply involved in the Angular ecosystem. Contributed to the Clarity Design System and developed enterprise-grade Angular directives. Specialized in building scalable, accessible UI libraries for large-scale management platforms.",
-    tech: ["Angular", "Clarity UI", "TypeScript", "RxJS", "SCSS"],
+    description: "Deeply involved in the Angular ecosystem and Clarity Design System. Key contributions include:\n• Generalized the concept of Angular Pipes in official documentation, advocating for their use as versatile data transformers (e.g., for real-time form validation states like dirty/invalid) beyond simple formatting.\n• Contributed to Angular Core by implementing the 'componentClasses' property for 'router-outlet'.\n• Optimized Clarity UI for micro-frontend architectures and improved accessibility (a11y) through intelligent tabindex management and ARIA enhancements.\nSpecialized in building scalable, accessible UI libraries for large-scale management platforms.",
+    tech: ["Angular Core", "Clarity UI", "RxJS", "TypeScript", "A11y"],
   },
   {
     period: "Early Career",
@@ -108,5 +108,13 @@ export const PROJECTS = [
     url: "https://github.com/KingMario/Baidu-Map-Indoor-Lite",
     tags: ["GIS", "Baidu Map", "Tiling"],
     category: "Hobby",
+  },
+  // Patents
+  {
+    name: "Medical Image Pyramid Representation Patent",
+    description: "Invention Patent: An improved secondary cutting pyramid representation for very large medical images remote viewer. Focuses on optimizing data transfer and rendering for massive datasets.",
+    url: "https://patents.google.com/patent/CN104376530A/en",
+    tags: ["Medical Imaging", "Pyramid Representation", "Patent"],
+    category: "Patents",
   },
 ];
