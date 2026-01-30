@@ -1,23 +1,36 @@
-# KingMario - a Vue Fan
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-I’m an experienced Vue developer. I have full-time Vue development experience for more than a year, and I’m familiar with Vue and its ecosystem such as vuex, vue-router etc. of version 1 and version 2.
+## Getting Started
 
-I take part in Vue ecosystem by submitting several pull requests for new features, bug-fixes and documentations.
-* [Vue pull request](https://github.com/vuejs/vue/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AKingMario)
-* [Vuejs.org pull request](https://github.com/vuejs/vuejs.org/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AKingMario)
-* [Vuex pull request](https://github.com/vuejs/vuex/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AKingMario)
-* [vue-i18n](https://github.com/kazupon/vue-i18n/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AKingMario)
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-I also make a Vue video course in the on-line studying web site: http://www.jikexueyuan.com/zhiye/course/12.html?type=8
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-For your connivence, I list the Vue related repos bellow:
-* [Practice project for the Vue video course. Vue, vuex and vue-router used](https://github.com/KingMario/Vue.js-Practice-Project)
-* [Examples for the Vue video course](https://github.com/KingMario/vue-course)
-* [A slide show for better understanding of Vue components, single-file components, webpack, vue-loader](https://github.com/KingMario/vue-course-code-slide)
-  - [The slide show](https://kingmario.github.io/vue-course/)
-* [A cnodejs frontend using vue.js to illustrate the usage of vue-router, vuex and vue-devtools](https://github.com/KingMario/Vuejs-cnodejs-example)
-  - [The site](https://kingmario.github.io/Vuejs-cnodejs-example/)
-* [Articles about Vue and its ecosystem](https://github.com/KingMario/think-in-vue)
-  - [Examples for the articles](https://kingmario.github.io/think-in-vue)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
