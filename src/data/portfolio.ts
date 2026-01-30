@@ -5,6 +5,7 @@ export const PERSONAL_INFO = {
   tagline: "From Vue.js ecosystems to Angular enterprise solutions, now architecting 3D Web CAD platforms with React & Three.js.",
   socials: {
     github: "https://github.com/KingMario",
+    npm: "https://www.npmjs.com/~kingmario",
     email: "mailto:changyu.geng@gmail.com", // Placeholder or from profile if available (not in profile)
   },
 };
@@ -42,6 +43,20 @@ export const PROJECTS = [
     tags: ["Webpack", "Vue.js", "Education"],
     category: "Vue",
   },
+  {
+    name: "Clarity Icons Vue",
+    description: "A Vue.js component wrapper for VMware's Clarity Icons, enabling easy integration of the enterprise icon set into Vue applications.",
+    url: "https://www.npmjs.com/package/clarity-icons-vue",
+    tags: ["Vue.js", "Clarity UI", "NPM"],
+    category: "Vue",
+  },
+  {
+    name: "XML Minify Loader",
+    description: "A Webpack loader to minify XML files, optimizing bundle size for applications with heavy XML data dependencies.",
+    url: "https://www.npmjs.com/package/xml-minify-loader",
+    tags: ["Webpack", "Tooling", "NPM"],
+    category: "Vue",
+  },
   // Angular Era
   {
     name: "Angular Reactive Forms Samples",
@@ -52,7 +67,7 @@ export const PROJECTS = [
   },
   {
     name: "Mario's Packages",
-    description: "A monorepo collection of high-utility Angular directives and pipes including upperCase, lowerCase, and cleave.js integrations.",
+    description: "A monorepo collection of high-utility Angular directives and pipes including upperCase, lowerCase, and cleave.js integrations. Published on NPM.",
     url: "https://github.com/KingMario/packages",
     tags: ["Angular", "Monorepo", "Utils"],
     category: "Angular",
@@ -64,13 +79,13 @@ export const PROJECTS = [
     tags: ["Angular", "Open Source", "NPM"],
     category: "Angular",
   },
-  // React / Three.js / Web CAD
+  // Three.js / Web CAD
   {
     name: "Three.js Dual Controller",
     description: "A 3D interaction example demonstrating complex transform controls for manipulating objects in a 3D space. Reflects my current focus on Web CAD platforms.",
     url: "https://github.com/KingMario/three-example-with-dual-controller",
     tags: ["Three.js", "WebGL", "Interaction"],
-    category: "React/Three.js",
+    category: "Three.js",
   },
   // Hobby / Utilities
   {
@@ -85,6 +100,13 @@ export const PROJECTS = [
     description: "A modern, TypeScript-based fitness application designed for personal interval training and workout tracking.",
     url: "https://github.com/KingMario/workout-timer",
     tags: ["TypeScript", "PWA", "Fitness"],
+    category: "Hobby",
+  },
+  {
+    name: "Baidu Map Indoor Lite",
+    description: "A specialized solution for Baidu Map customized layer tiles cutting, enabling efficient indoor map rendering and management.",
+    url: "https://github.com/KingMario/Baidu-Map-Indoor-Lite",
+    tags: ["GIS", "Baidu Map", "Tiling"],
     category: "Hobby",
   },
 ];

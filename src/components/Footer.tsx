@@ -12,6 +12,7 @@ export const Footer = () => {
         </div>
         <div className="flex gap-6">
           <a href={PERSONAL_INFO.socials.github} className="hover:text-white transition-colors">GitHub</a>
+          <a href={PERSONAL_INFO.socials.npm} className="hover:text-white transition-colors">NPM</a>
           {/* <a href={PERSONAL_INFO.socials.linkedin} className="hover:text-white transition-colors">LinkedIn</a> */}
         </div>
       </div>
