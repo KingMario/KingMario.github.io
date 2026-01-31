@@ -21,7 +21,7 @@ export const EXPERIENCE = [
     period: "2017 - 2024",
     role: "Staff Software Engineer",
     company: "VMware",
-    description: "Led frontend development for cloud management and commerce platforms. Key contributions:\n• VCPP Commerce Portal: Developed core modules for usage reports, billing, and email notification configurations.\n• Usage Meter Appliance: Architected a scalable dashboard fully compliant with international accessibility (A11y) standards, using Angular and RxJS.\n• Cloud Director Integration: Led the Object Storage Extension UI, integrating bucket/object management into the vApp ecosystem.\n• Community & Mentorship: Acted as problem setter for VMware China Coding Competition (CCC) and significantly improved team practices through rigorous code reviews.",
+    description: "Led frontend development for cloud management and commerce platforms. Key contributions:\n• VCPP Commerce Portal: Developed core modules for usage reports, billing, and email notification configurations.\n• Usage Meter Appliance: Architected a scalable dashboard fully compliant with international accessibility (A11y) standards, using Angular and RxJS.\n• Cloud Director Integration: Developed core UI modules for the Object Storage Extension, integrating bucket/object management into the vApp ecosystem.\n• Community & Mentorship: Acted as problem setter for VMware China Coding Competition (CCC) and significantly improved team practices through rigorous code reviews.",
     tech: ["Angular", "RxJS", "NgRx", "TypeScript", "Clarity UI", "A11y"],
   },
   {
@@ -75,7 +75,7 @@ export const PROJECTS = [
   },
   {
     name: "VCD Object Storage Extension",
-    description: "Architected the UI for integrating S3-compatible object storage into VMware Cloud Director, allowing service providers to manage buckets and objects at scale.",
+    description: "Developed core UI modules for integrating S3-compatible object storage into VMware Cloud Director, enabling service providers to manage buckets and objects at scale.",
     url: "https://www.vmware.com/products/cloud-infrastructure/cloud-director/object-storage-extension",
     tags: ["Angular", "Cloud", "S3", "Enterprise"],
     category: "Professional",
