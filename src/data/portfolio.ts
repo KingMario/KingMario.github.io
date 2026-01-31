@@ -60,8 +60,8 @@ export const PROJECTS = [
   {
     name: "AMCAX Web CAD Platform",
     description:
-      "Architecting core modules for a browser-based 3D modeling system. Key features include the Assembly constraint solver, command framework, and high-performance 3D visualization for complex models.",
-    url: "https://next.amcax.net",
+      "Architected the frontend for a next-gen browser CAD system. Implemented precision 3D interactions (picking, view controls) and complex feature previews, including Linear/Circular Patterns with instance skipping. Developed part transformation controllers and animation previews for assembly constraints.",
+    url: "https://amcax.net/col.jsp?id=1207",
     tags: ["React", "Three.js", "CAD", "WebGL"],
     category: "Professional",
   },
