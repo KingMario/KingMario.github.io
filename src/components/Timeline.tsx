@@ -22,7 +22,7 @@ export const Timeline = () => {
               {exp.period}
             </div>
             
-            <p className="text-slate-600 mb-4 leading-relaxed max-w-3xl">
+            <p className="text-slate-600 mb-4 leading-relaxed max-w-3xl whitespace-pre-line">
               {exp.description}
             </p>
             

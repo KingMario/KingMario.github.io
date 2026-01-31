@@ -42,9 +42,9 @@ const ProjectCard = ({ project }: { project: typeof PROJECTS[0] }) => {
 export const ProjectGrid = () => {
   return (
     <Section id="projects">
-      <h2 className="text-3xl font-bold text-slate-900 mb-6">Open Source & Projects</h2>
+      <h2 className="text-3xl font-bold text-slate-900 mb-6">Work & Open Source</h2>
       <p className="text-slate-600 mb-12 max-w-2xl">
-        A selection of contributions to the Vue and Angular ecosystems, along with my latest experiments in 3D web technologies.
+        A selection of professional CAD platforms, enterprise solutions, and AI-powered hobby projects (Vibe Coding), alongside contributions to the Vue/Angular ecosystems.
       </p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
