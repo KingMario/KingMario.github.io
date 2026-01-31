@@ -39,7 +39,7 @@ export const OPEN_SOURCE = [
     contributions: [
       "Angular Documentation: Generalized the concept of Pipes, advocating for their use as versatile data transformers (e.g., real-time form state validation) beyond simple formatting.",
       "Clarity Design System: Optimized for micro-frontend architectures and improved A11y through intelligent tabindex management and ARIA enhancements.",
-      "Utility Packages: Authored and maintained popular directives like 'ngx-trim-directive' and specialized pipes for cleave.js integration, reaching thousands of monthly downloads.",
+      "Utility Packages: Authored and maintained popular directives like 'ngx-trim-directive' (10K+ weekly downloads) and 'ngx-cleave-directive' (2K+ weekly downloads), providing seamless integrations for enterprise forms.",
     ],
     tech: ["Angular", "RxJS", "TypeScript", "A11y"],
   },
@@ -97,11 +97,11 @@ export const PROJECTS = [
   },
   // Open Source & Tools
   {
-    name: "NgxTrimDirective",
+    name: "Angular Utility Packages",
     description:
-      "A popular Angular directive to automatically trim form input values. Part of a suite of utility packages with thousands of monthly downloads on NPM.",
-    url: "https://github.com/KingMario/ngx-trim-directive",
-    tags: ["Angular", "Open Source", "NPM"],
+      "A high-utility monorepo featuring 'ngx-trim-directive' (10K+ weekly downloads) and 'ngx-cleave-directive'. Demonstrates advanced Angular patterns and enterprise-grade utility management.",
+    url: "https://github.com/KingMario/packages",
+    tags: ["Angular", "Monorepo", "Open Source", "NPM"],
     category: "Angular",
   },
   {
