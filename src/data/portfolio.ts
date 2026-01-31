@@ -152,6 +152,20 @@ export const PROJECTS = [
     category: "Hobby",
   },
   {
+    name: "Index File Manager VSCode Extension",
+    description: "Automates directory cleanup with bi-directional renaming between 'index' files and their parent folders (e.g., Button/index.tsx ↔ Button.tsx). Also features a command to auto-generate index files with bulk exports from all sub-files.",
+    url: "https://github.com/KingMario/folder4index",
+    tags: ["VSCode", "Extension", "Tool"],
+    category: "Hobby",
+  },
+  {
+    name: "Peptide Segment Conjecture",
+    description: "A specialized utility for biological research that conjectures possible peptide segments based on molecular weight and biochemical constraints.",
+    url: "https://github.com/KingMario/peptide-segment-conjecture",
+    tags: ["Biotech", "Algorithms", "Utility"],
+    category: "Hobby",
+  },
+  {
     name: "Workout Timer",
     description: "A modern, AI-assisted (Vibe Coding) fitness application designed for personal interval training and workout tracking.",
     url: "https://github.com/KingMario/workout-timer",
