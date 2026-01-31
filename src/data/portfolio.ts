@@ -47,7 +47,7 @@ export const OPEN_SOURCE = [
     category: "Vue.js Ecosystem",
     contributions: [
       "Vue.js Core: Implemented the 'v-on.once' modifier and critical runtime warnings in Vue 1.0/2.0 core.",
-      "Community Leadership: Authored the 'Think in Vue' Zhihu column (19 deep-dive articles). Served as the #1 contributor for the Vue.js tag on SegmentFault from 2016-2019, and maintained a Top 10 ranking for nearly 8 years until 2023.",
+      "Community Leadership: Authored the 'Think in Vue' Zhihu column (19 deep-dive articles). Served as the #1 contributor for the Vue.js tag on SegmentFault.com from 2016-2019, and maintained a Top 10 ranking for nearly 8 years until 2023.",
       "Vue.js Documentation: Clarified key concepts including 'render function priorities' and 'event modifiers' in the official v2.vuejs.org guide.",
       "Ecosystem: Authored Vuex best practices for form handling and contributed to 'vue-i18n' localization features.",
     ],
@@ -121,14 +121,6 @@ export const PROJECTS = [
     category: "Three.js",
   },
   {
-    name: "SmartProxy",
-    description:
-      "A high-performance proxy management utility written in Go, focusing on speed, reliability, and efficient network routing.",
-    url: "https://github.com/KingMario/SmartProxy",
-    tags: ["Go", "Network", "Tool"],
-    category: "Hobby",
-  },
-  {
     name: "Clarity Icons Vue",
     description:
       "Vue.js component wrapper for VMware's Clarity Icons, enabling easy integration of enterprise design tokens into Vue applications.",
@@ -142,6 +134,22 @@ export const PROJECTS = [
     url: "https://github.com/KingMario/vue-course-code-slide",
     tags: ["Webpack", "Vue.js", "Education"],
     category: "Vue",
+  },
+  // Hobby & Utilities
+  {
+    name: "SmartProxy",
+    description:
+      "A high-performance proxy management utility written in Go, focusing on speed, reliability, and efficient network routing.",
+    url: "https://github.com/KingMario/SmartProxy",
+    tags: ["Go", "Network", "Tool"],
+    category: "Hobby",
+  },
+  {
+    name: "Max3",
+    description: "A lightweight window management utility scripted in AutoHotKey, serving as a high-performance replacement for MaxTo on Windows.",
+    url: "https://github.com/KingMario/Max3",
+    tags: ["AutoHotKey", "Windows", "Productivity"],
+    category: "Hobby",
   },
   {
     name: "Baidu Map Indoor Lite",
