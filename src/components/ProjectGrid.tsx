@@ -24,7 +24,7 @@ const ProjectCard = ({ project }: { project: typeof PROJECTS[0] }) => {
         {project.name}
       </h3>
       
-      <p className="text-slate-600 text-sm mb-6 line-clamp-3">
+      <p className="text-slate-600 text-sm mb-6">
         {project.description}
       </p>
       
