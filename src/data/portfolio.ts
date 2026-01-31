@@ -75,14 +75,16 @@ export const PROJECTS = [
   },
   {
     name: "VCD Object Storage Extension",
-    description: "Developed core UI modules for integrating S3-compatible object storage into VMware Cloud Director, enabling service providers to manage buckets and objects at scale.",
+    description:
+      "Developed core UI modules for integrating S3-compatible object storage into VMware Cloud Director, enabling service providers to manage buckets and objects at scale.",
     url: "https://www.vmware.com/products/cloud-infrastructure/cloud-director/object-storage-extension",
     tags: ["Angular", "Cloud", "S3", "Enterprise"],
     category: "Professional",
   },
   {
     name: "VCPP Commerce Portal",
-    description: "Built key modules for the cloud provider commerce platform, including complex usage reporting, billing configurations, and automated email notification systems.",
+    description:
+      "Built key modules for the cloud provider commerce platform, including complex usage reporting, billing configurations, and automated email notification configurations.",
     url: "https://blogs.vmware.com/cloudprovider/2020/02/introducing-the-new-vcpp-commerce-portal.html",
     tags: ["Angular", "CloudOps", "Management", "Enterprise"],
     category: "Professional",
@@ -130,7 +132,8 @@ export const PROJECTS = [
   },
   {
     name: "Vue Course Slides",
-    description: "An educational demonstration of Vue.js, Webpack, and vue-loader configuration, including live editing result previews.",
+    description:
+      "An educational demonstration of Vue.js, Webpack, and vue-loader configuration, including live editing result previews.",
     url: "https://github.com/KingMario/vue-course-code-slide",
     tags: ["Webpack", "Vue.js", "Education"],
     category: "Vue",
@@ -146,7 +149,8 @@ export const PROJECTS = [
   },
   {
     name: "Max3",
-    description: "A lightweight window management utility scripted in AutoHotKey, serving as a high-performance replacement for MaxTo on Windows.",
+    description:
+      "A lightweight window management utility scripted in AutoHotKey, serving as a high-performance replacement for MaxTo on Windows.",
     url: "https://github.com/KingMario/Max3",
     tags: ["AutoHotKey", "Windows", "Productivity"],
     category: "Hobby",
@@ -161,21 +165,24 @@ export const PROJECTS = [
   },
   {
     name: "Index File Manager VSCode Extension",
-    description: "Automates directory cleanup with bi-directional renaming between 'index' files and their parent folders (e.g., Button/index.tsx ↔ Button.tsx). Also features a command to auto-generate index files with bulk exports from all sub-files.",
+    description:
+      "Automates directory cleanup with bi-directional renaming between 'index' files and their parent folders (e.g., Button/index.tsx ↔ Button.tsx). Also features a command to auto-generate index files with bulk exports from all sub-files.",
     url: "https://github.com/KingMario/folder4index",
     tags: ["VSCode", "Extension", "Tool"],
     category: "Hobby",
   },
   {
     name: "Peptide Segment Conjecture",
-    description: "A specialized utility for biological research that conjectures possible peptide segments based on molecular weight and biochemical constraints.",
+    description:
+      "A specialized utility for biological research that conjectures possible peptide segments based on molecular weight and biochemical constraints.",
     url: "https://github.com/KingMario/peptide-segment-conjecture",
     tags: ["Biotech", "Algorithms", "Utility"],
     category: "Hobby",
   },
   {
     name: "Workout Timer",
-    description: "A modern, AI-assisted (Vibe Coding) fitness application designed for personal interval training and workout tracking.",
+    description:
+      "A modern, AI-assisted (Vibe Coding) fitness application designed for personal interval training and workout tracking.",
     url: "https://github.com/KingMario/workout-timer",
     tags: ["TypeScript", "PWA", "AI-Generated", "VibeCoding"],
     category: "Hobby",
