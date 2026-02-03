@@ -106,14 +106,7 @@ export const PROJECTS = [
     tags: ["Angular", "Monorepo", "Open Source", "NPM"],
     category: "Angular",
   },
-  {
-    name: "Angular Reactive Forms Samples",
-    description:
-      "A comprehensive collection of advanced Reactive Forms patterns, demonstrating best practices for complex state management in Angular.",
-    url: "https://github.com/KingMario/angular-reactive-forms-samples",
-    tags: ["Angular", "Reactive Forms", "Best Practices"],
-    category: "Angular",
-  },
+
   {
     name: "Three.js Dual Controller",
     description:
