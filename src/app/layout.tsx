@@ -14,7 +14,25 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Changyu Geng (Mario) - Portfolio",
-  description: "Senior Frontend Engineer specializing in Vue, Angular, and Web CAD (React/Three.js).",
+  description:
+    "Senior Frontend Engineer specializing in Vue.js, Angular, and Web CAD (React/Three.js). Creator of open source tools and libraries.",
+  keywords: [
+    "Changyu Geng",
+    "Mario Studio",
+    "Mario",
+    "Frontend Engineer",
+    "Vue.js",
+    "Angular",
+    "React",
+    "Three.js",
+    "TypeScript",
+    "WebGL",
+    "Web CAD",
+    "Open Source",
+    "Workout Timer",
+    "SmartProxy",
+    "Blind-2048",
+  ],
   icons: {
     icon: '/favicon.ico?v=2',
   },
