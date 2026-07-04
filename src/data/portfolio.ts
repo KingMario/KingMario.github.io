@@ -208,12 +208,12 @@ export const PROJECTS = [
     category: "Hobby",
   },
   {
-    name: "Focus Grid / Schulte Grid",
+    name: "Focus Grid / 专注格",
     description:
-      "A framework-free Schulte Grid attention trainer with tutorial mode, countdown levels, bilingual UI, and touch-friendly gameplay for focus practice.",
+      "A framework-free Schulte Grid attention trainer with tutorial mode, countdown levels, bilingual UI, and touch-friendly gameplay for focus practice. The Chinese product name is 专注格.",
     pageUrl: "https://mario.studio/focus-grid/",
     sourceUrl: "https://github.com/KingMario/focus-grid",
-    tags: ["JavaScript", "Schulte Grid", "Focus", "No Framework"],
+    tags: ["JavaScript", "Schulte Grid", "专注格", "No Framework"],
     category: "Hobby",
   },
 ] satisfies Project[];

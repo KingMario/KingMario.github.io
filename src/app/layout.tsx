@@ -32,6 +32,7 @@ export const metadata: Metadata = {
     "Workout Timer",
     "灵动健身",
     "Focus Grid",
+    "专注格",
     "Schulte Grid",
     "舒尔特方格",
     "SmartProxy",
