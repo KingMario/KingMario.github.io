@@ -1,33 +1,63 @@
+import type { ReactNode } from "react";
 
-import React from 'react';
-import { PROJECTS } from '@/data/portfolio';
-import { Section } from './Section';
+import { PROJECTS, type Project } from "@/data/portfolio";
+import { Section } from "./Section";
 
-const ProjectCard = ({ project }: { project: typeof PROJECTS[0] }) => {
+const ProjectLink = ({
+  href,
+  children,
+  variant = "primary",
+}: {
+  href: string;
+  children: ReactNode;
+  variant?: "primary" | "secondary";
+}) => {
   return (
-    <a 
-      href={project.url} 
-      target="_blank" 
+    <a
+      href={href}
+      target="_blank"
       rel="noopener noreferrer"
-      className="group block bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition-all hover:-translate-y-1"
+      className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-bold transition-colors ${
+        variant === "primary"
+          ? "bg-slate-900 text-white hover:bg-blue-600"
+          : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+      }`}
     >
+      {children}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-3.5 w-3.5"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+        />
+      </svg>
+    </a>
+  );
+};
+
+const ProjectCard = ({ project }: { project: Project }) => {
+  return (
+    <article className="group flex flex-col bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition-all hover:-translate-y-1">
       <div className="flex justify-between items-start mb-4">
         <div className="px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold rounded-full uppercase">
           {project.category}
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-slate-400 group-hover:text-blue-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-        </svg>
       </div>
-      
+
       <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
         {project.name}
       </h3>
-      
-      <p className="text-slate-600 text-sm mb-6">
-        {project.description}
-      </p>
-      
+
+      <p className="text-slate-600 text-sm mb-6">{project.description}</p>
+
       <div className="flex flex-wrap gap-2 mt-auto">
         {project.tags.map((tag) => (
           <span key={tag} className="text-xs text-slate-500 font-mono">
@@ -35,18 +65,33 @@ const ProjectCard = ({ project }: { project: typeof PROJECTS[0] }) => {
           </span>
         ))}
       </div>
-    </a>
+
+      <div className="mt-6 flex flex-wrap gap-3">
+        {project.pageUrl ? (
+          <ProjectLink href={project.pageUrl}>Page</ProjectLink>
+        ) : null}
+        {project.sourceUrl ? (
+          <ProjectLink href={project.sourceUrl} variant="secondary">
+            Source
+          </ProjectLink>
+        ) : null}
+      </div>
+    </article>
   );
 };
 
 export const ProjectGrid = () => {
   return (
     <Section id="projects">
-      <h2 className="text-3xl font-bold text-slate-900 mb-6">Work & Open Source</h2>
+      <h2 className="text-3xl font-bold text-slate-900 mb-6">
+        Work & Open Source
+      </h2>
       <p className="text-slate-600 mb-12 max-w-2xl">
-        A selection of professional CAD platforms, enterprise solutions, and AI-powered hobby projects (Vibe Coding), alongside contributions to the Vue/Angular ecosystems.
+        A selection of professional CAD platforms, enterprise solutions, and
+        AI-powered hobby projects (Vibe Coding), alongside contributions to the
+        Vue/Angular ecosystems.
       </p>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {PROJECTS.map((project, index) => (
           <ProjectCard key={index} project={project} />

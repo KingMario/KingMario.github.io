@@ -30,11 +30,15 @@ export const metadata: Metadata = {
     "Web CAD",
     "Open Source",
     "Workout Timer",
+    "灵动健身",
+    "Focus Grid",
+    "Schulte Grid",
+    "舒尔特方格",
     "SmartProxy",
     "Blind-2048",
   ],
   icons: {
-    icon: '/favicon.ico?v=2',
+    icon: "/favicon.ico?v=2",
   },
 };
 
